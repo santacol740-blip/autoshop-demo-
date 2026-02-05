@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Auto Repair Demo Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 20px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 540px;
+            width: 100%;
+        }
+
+        .icon {
+            width: 72px;
+            height: 72px;
+            background: #0ea5e9;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 36px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #f1f5f9;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 15px;
+            margin-bottom: 32px;
+        }
+
+        .file-info {
+            background: #0f172a;
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 32px;
+        }
+
+        .file-name {
+            font-weight: 600;
+            color: #e2e8f0;
+            font-size: 16px;
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            margin-bottom: 6px;
+        }
+
+        .file-details {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #0ea5e9;
+            color: white;
+            padding: 16px 48px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background: #0284c7;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 20px rgba(14, 165, 233, 0.3);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .download-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .features {
+            margin-top: 36px;
+            text-align: left;
+            display: grid;
+            gap: 10px;
+        }
+
+        .feature {
+            display: flex;
+            align-items: center;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        .feature-check {
+            width: 20px;
+            height: 20px;
+            background: rgba(14, 165, 233, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            flex-shrink: 0;
+            color: #0ea5e9;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .divider {
+            height: 1px;
+            background: #334155;
+            margin: 32px 0;
+        }
+
+        .instructions {
+            text-align: left;
+            color: #94a3b8;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+
+        .instructions strong {
+            color: #e2e8f0;
+        }
+
+        .step-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+            background: #334155;
+            border-radius: 50%;
+            color: #0ea5e9;
+            font-size: 12px;
+            font-weight: 700;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">&#x1F4E6;</div>
+        <h1>Auto Repair Demo</h1>
+        <p class="subtitle">Complete project package ready for GitHub and Vercel</p>
+
+        <div class="file-info">
+            <div class="file-name">project-download.zip</div>
+            <div class="file-details">
+                <span>87 files</span>
+                <span>121 KB</span>
+                <span>GitHub-ready</span>
+            </div>
+        </div>
+
+        <a href="/project-download.zip" download="auto-repair-project.zip" class="download-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download ZIP
+        </a>
+
+        <div class="features">
+            <div class="feature"><span class="feature-check">&#10003;</span> Complete source code (src/, pages/, components/)</div>
+            <div class="feature"><span class="feature-check">&#10003;</span> All configuration (package.json, vite, tailwind, tsconfig)</div>
+            <div class="feature"><span class="feature-check">&#10003;</span> Vercel deployment config (vercel.json)</div>
+            <div class="feature"><span class="feature-check">&#10003;</span> No secrets or node_modules included</div>
+            <div class="feature"><span class="feature-check">&#10003;</span> CTA buttons linked to cal.com/aibossflow</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="instructions">
+            <p><span class="step-num">1</span> <strong>Upload to GitHub:</strong> Create a new repo, upload ZIP contents</p>
+            <p><span class="step-num">2</span> <strong>Import to Vercel:</strong> vercel.com/new &rarr; Import repo</p>
+            <p><span class="step-num">3</span> <strong>Build settings:</strong> Vite / npm run build / dist</p>
+            <p><span class="step-num">4</span> <strong>Add domain:</strong> Settings &rarr; Domains &rarr; auto.aibossflow.com</p>
+            <p><span class="step-num">5</span> <strong>DNS:</strong> CNAME &bull; auto &bull; cname.vercel-dns.com</p>
+        </div>
+    </div>
+</body>
+</html>
