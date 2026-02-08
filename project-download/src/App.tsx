@@ -3,7 +3,7 @@ import { SplineSceneBasic } from './components/spline-demo';
 function App() {
   return (
     <div className="min-h-screen bg-neutral-950 p-8 flex items-center justify-center">
-      <div className="max-w-7xl w-full">
+      <div className=" w-full">
         <div className="mb-8 text-center">
           <h1 className="text-5xl font-bold text-white mb-4">
             Spline 3D Integration
