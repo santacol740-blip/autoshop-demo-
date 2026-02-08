@@ -38,7 +38,7 @@ export function OfferSection() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mt-4 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
             What You Get
           </h2>
-          <p className="text-neutral-400 mt-4 max-w-2xl mx-auto text-lg">
+          <p className="text-neutral-200 mt-4 max-w-2xl mx-auto text-lg">
             Book a free demo call and discover how AI automation can transform
             your auto shop operations.
           </p>
