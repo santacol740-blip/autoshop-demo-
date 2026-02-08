@@ -57,7 +57,7 @@ export function OfferSection() {
                 <h3 className="text-xl font-semibold text-white mb-3">
                   {offering.title}
                 </h3>
-                <p className="text-neutral-400 leading-relaxed">
+                <p className="text-white leading-relaxed">
                   {offering.description}
                 </p>
               </CardContent>
